@@ -42,8 +42,8 @@ void PrintMatrix(int[,] matr)
 
 void FindRowsMinSum(int[,] matr)
 {
-    double sum = 0;
-    double temp = 0;
+    int sum = 0;
+    int temp = 0;
     int minRowIndex = 0;
 
     for (int i = 0; i < matr.GetLength(0); i++)
